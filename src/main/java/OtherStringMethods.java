@@ -36,7 +36,7 @@ public class OtherStringMethods {
      * @param s1 the string to be manipulated.
      * @param splitAround the string that will be the text that s1 is split around (eg, for dividing a sentence into
      *                    words we use " ".
-     * @return an array of Strings that represent s1 split by splitAround.
+     * @return an array of Strings that represent s1 split by splitAround.h
      */
     public String[] splitStringIntoMultipleStrings(String s1, String splitAround) {
         return s1.split(splitAround);
